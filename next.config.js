@@ -3,7 +3,7 @@ const path = require('path')
 const nextConfig = {
   images: {
     loader: 'custom',
-    loaderFile: './public/images',
+    loaderFile: '../public/images',
   },
   reactStrictMode: true,
   trailingSlash: true,
